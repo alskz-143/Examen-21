@@ -29,7 +29,18 @@ print(f"¡Bienvenido(a)! Su combustible disponible es: 100")
 # ETAPA 2 - NAVEGACIÓN
 # =========================
 
-# Mostrar el menú y procesar la opción seleccionada.
+menú = ["Luna", "Marte", "Saturno"]
+elegido = input("Seleccione un destino: ")
+if elegido == "Luna":
+    print("El destino elegido es: Luna")
+    print("Combustible necesario: 20 unidades")
+elif elegido == "Marte":
+    print("El destino elegido es: Marte")
+    print("Combustible necesario: 35 unidades")
+else:
+    print("El destino elegido es: Saturno")
+    print("Combustible necesario: 50 unidades")
+
 # Utilizar las listas para obtener destino y costo.
 
 
