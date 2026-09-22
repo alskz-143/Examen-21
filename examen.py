@@ -1,6 +1,6 @@
 # Examen práctico - Terminal de Expedición Espacial
-# Nombre y apellido:
-# Curso:
+# Nombre y apellido: Alessia Chans
+# Curso: 2°1°
 #
 # IMPORTANTE:
 # Resolver el programa siguiendo las etapas indicadas en el README.md.
@@ -13,9 +13,16 @@
 # ETAPA 1 - INICIO
 # =========================
 
-# Crear las variables necesarias.
-# Crear las listas de destinos y costos.
-# Pedir el nombre del piloto.
+nombre = input("Ingrese su nombre: ")
+a1 = 100
+print(f"Combustible disponible: {a1}")
+cantidad = 0 
+luna = 0
+marte = 0
+saturno = 0
+destino = ["Luna", "Marte", "Saturno"]
+costos = ["20 unidades", "35 unidades", "50 unidades"]
+print(f"¡Bienvenido(a)! Su combustible disponible es: 100")
 
 
 # =========================
